@@ -14,7 +14,9 @@ background-color: black;
     justify-content: center;
     position: relative;
 }
-
+.header h1 {
+    font-size: 70px;
+}
 .ninjahead {
         height: 8rem;
         margin-top: auto;
@@ -60,13 +62,20 @@ section {
     .big-characters {
         display: grid;
         color:black; 
+        align-self: center;
         background-color: white;
-        
     }
-    
+    .big-characters-text {
+        margin: 10px;
+    }
+
     img {
         height: 300px;
     }
+}
+
+.text-style {
+    display: flex
 }
 
 button {
@@ -84,12 +93,26 @@ button {
         justify-content: space-around;
         background-color: #333333;
         color: white;
+        
 
     }
 
     .footer a {
         display: flex;
+        margin: 1rem;
         color: white;
         text-decoration: none;
         flex-direction: row;
+        font-size: 13px;
     }
+
+    .footer h2 {
+        font-size: 30px;
+        margin: 1rem;
+        
+    }
+
+    .footer img {
+        padding: 10px;
+    }
+
