@@ -3,6 +3,9 @@ background-color: black;
 
 }
 
+h2, p {
+        margin: 10px;
+}
 .header {
     display: flex;
     flex-direction: column;
@@ -14,7 +17,7 @@ background-color: black;
     justify-content: center;
     position: relative;
 }
-.header h1 {
+h1 {
     font-size: 70px;
 }
 .ninjahead {
@@ -65,9 +68,6 @@ section {
         align-self: center;
         background-color: white;
     }
-    .big-characters-text {
-        margin: 10px;
-    }
 
     img {
         height: 300px;
@@ -93,7 +93,7 @@ button {
         
 
     }
-
+    
     .footer a {
         display: flex;
         margin: 1rem;
